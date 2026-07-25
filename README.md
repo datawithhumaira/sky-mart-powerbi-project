@@ -55,7 +55,7 @@ SkyMart management needed one trusted BI dashboard because sales, returns, inven
 
 - **Power Query:** folder-based append, merges/joins across 10+ tables, text cleaning (trim/clean/casing), mixed-date-format parsing, duplicate/blank handling, column splitting, unpivoting survey data.
 - **Data Modeling:** star schema, Date table with hierarchy, many-to-many relationship with `USERELATIONSHIP()` for cross-fact filtering (Budget ↔ Sales).
-- **DAX:** 25+ measures covering revenue, profit, margin, MoM trend, return rate, stock status, delivery performance, satisfaction, and budget variance. Full list in `docs/DAX_measures.md`.
+- **DAX:** 25+ measures covering revenue, profit, margin, MoM trend, return rate, stock status, delivery performance, satisfaction, and budget variance. Full list in `DAX_measures.md`.
 - **Report Design:** custom theme, consistent KPI/chart/table layout across pages, decomposition tree, conditional formatting, page navigation buttons.
 
 ---
@@ -67,10 +67,8 @@ skymart-powerbi-dashboard/
 ├── SkyMart_Dashboard.pbix
 ├── README.md
 ├── screenshots/
-├── docs/
-│   ├── DAX_measures.md
-│   └── data_quality_notes.md
-```
+├── DAX_measures.md
+├── data_quality_notes.md
 
 ---
 
