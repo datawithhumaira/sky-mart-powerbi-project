@@ -77,7 +77,7 @@ skymart-powerbi-dashboard/
 ## 🚀 How to Use
 
 1. Download `SkyMart_Dashboard.pbix`.
-2. Open in **Power BI Desktop** (free — [download here](SkyMart Power BI Project.pbix)).
+2. Open in **Power BI Desktop** (free — [download here]("SkyMart Power BI Project.pbix")).
 3. Explore each page via the navigation buttons; use slicers to filter by date/region/category.
 
 ---
