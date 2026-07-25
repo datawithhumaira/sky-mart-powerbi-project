@@ -65,7 +65,7 @@ Actual profit exceeded budget targets by ~398% across every month, region, and c
 - **Sales declined Jan → Apr 2025, then recovered in May–Jun**, ending the period down overall for profit MoM.
 - **East region** drives the most revenue ($23.7M), with **Home & Kitchen** the top category.
 - **Furniture** has the highest return rate (10.9%); **Prairiepro** is the highest-return brand.
-- **~63% of SKU–store combinations are below reorder threshold** — a significant restocking signal.
+- **~63.5% of SKU–store combinations are currently overstocked — a significant excess-inventory signal (tied-up capital, storage costs). ~18% are understocked and need restocking attention.
 - **88.2% of shipments arrive on time** (defined as within 5 days of ship date — no promised-date field existed in source data).
 - **Customer satisfaction is consistently high (~3.8–3.9/5)** across all provinces and survey categories.
 - **Actual profit exceeded budget targets by ~398%** across all months/regions/categories — flagged as a planning-assumption finding, not a data error (see `data_quality_notes.md`).
