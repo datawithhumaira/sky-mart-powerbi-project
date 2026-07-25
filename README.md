@@ -24,16 +24,37 @@ SkyMart management needed one trusted BI dashboard because sales, returns, inven
 
 ---
 
-## 📊 Report Pages
+## 📊 Report Pages & Observations
 
-1. **Executive Overview** — Company-wide KPIs: Total Sales, Profit, Margin, Return Rate, On-Time Delivery.
-2. **Sales Analysis** — Monthly trend, MoM % table with conditional formatting, sales by store.
-3. **Sales Drilldown** — Interactive decomposition tree (Region → Category → Product → Store).
-4. **Returns Analysis** — Return rate by category/brand, return reasons, item condition.
-5. **Inventory Dashboard** — Understocked/overstocked counts, per-SKU stock status table.
-6. **Shipment Operations** — On-time delivery %, average delivery days, carrier performance.
-7. **Customer Satisfaction** — Satisfaction score by province and by survey question.
-8. **Budget vs Actual** — Budget variance by month, region, and category.
+### 1. Executive Overview
+![Executive Overview](screenshots/executive_overview.png)
+Company snapshot: $74.97M Total Sales, $27.56M Total Profit, 9.69% Return Rate, 88% On-Time Delivery. Immediate sense of overall health at a glance.
+
+### 2. Sales Analysis
+![Sales Analysis](screenshots/sales_analysis.png)
+Sales declined steadily from Jan ($13.9M) through Apr ($11.2M, -17.7% MoM), before recovering in May–Jun. Profit followed the same pattern, ending down 18.1% cumulatively. East region and the Skymart Laval/Ottawa/Toronto stores are the top revenue contributors.
+
+### 3. Sales Drilldown
+![Sales Drilldown](screenshots/sales_drilldown.png)
+Interactive breakdown of the $73.8M revenue base: East leads all regions ($23.7M), Home & Kitchen is the top category ($4.6M), and Northpeak's top model alone drives $175K — click-through tool for tracing revenue to its source.
+
+### 4. Returns Analysis
+![Returns Analysis](screenshots/returns_analysis.png)
+9.69% overall return rate across 3,217 returns. Furniture has the highest category return rate (10.9%); Prairiepro is the highest-return brand (530 returns). Most common reasons: Damaged (804) and Wrong Item (424); most returned items come back in Resellable or Opened condition.
+
+### 5. Inventory Dashboard
+![Inventory Dashboard](screenshots/inventory_dashboard.png)
+63.5% of SKU–store combinations are currently below reorder threshold (1,081 understocked records) — a significant restocking signal for operations. 18.2% are overstocked.
+
+### 6. Shipment Operations & Customer Satisfaction
+![Shipment Operations](screenshots/shipment_operations.png) & ![Customer Satisfaction](screenshots/customer_satisfaction.png)
+88.2% of shipments delivered on time (within 5 days of ship date), averaging 3.27 days overall. Carrier performance is fairly consistent, no single carrier standing out as a bottleneck.
+
+Satisfaction is consistently high and stable across all provinces (3.8–3.9 out of 5). Customer Support scores marginally lower than Product Quality, Delivery Speed, Price Value, and Website Experience.
+
+### 8. Budget vs Actual
+![Budget vs Actual](screenshots/budget_vs_actual.png)
+Actual profit exceeded budget targets by ~398% across every month, region, and category — a consistent, dramatic overshoot worth flagging for the next budget planning cycle rather than a one-off anomaly.
 
 *(Screenshots of every page are in `/screenshots`.)*
 
@@ -47,7 +68,7 @@ SkyMart management needed one trusted BI dashboard because sales, returns, inven
 - **~63% of SKU–store combinations are below reorder threshold** — a significant restocking signal.
 - **88.2% of shipments arrive on time** (defined as within 5 days of ship date — no promised-date field existed in source data).
 - **Customer satisfaction is consistently high (~3.8–3.9/5)** across all provinces and survey categories.
-- **Actual profit exceeded budget targets by ~398%** across all months/regions/categories — flagged as a planning-assumption finding, not a data error (see `docs/data_quality_notes.md`).
+- **Actual profit exceeded budget targets by ~398%** across all months/regions/categories — flagged as a planning-assumption finding, not a data error (see `data_quality_notes.md`).
 
 ---
 
@@ -69,7 +90,7 @@ skymart-powerbi-dashboard/
 ├── screenshots/
 ├── DAX_measures.md
 ├── data_quality_notes.md
-
+├── SkyMart_Theme.Json
 ---
 
 ## 🚀 How to Use
