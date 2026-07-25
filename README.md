@@ -96,7 +96,7 @@ Actual profit exceeded budget targets by ~398% across every month, region, and c
 ## 🚀 How to Use
 
 📥 **[Download the Power BI file (SkyMart_Power_BI_Project.pbix)](SkyMart_Power_BI_Project.pbix)**
-
+📥 **[Download the PDF file (DAX.pdf)](DAX.pdf)**
 
 
 ---
