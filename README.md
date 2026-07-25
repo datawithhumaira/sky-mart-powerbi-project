@@ -44,7 +44,7 @@ Interactive breakdown of the $73.8M revenue base: East leads all regions ($23.7M
 
 ### 5. Inventory Dashboard
 ![Inventory Dashboard](screenshots/inventory_dashboard.png)
-63.5% of SKU–store combinations are currently below reorder threshold (1,081 understocked records) — a significant restocking signal for operations. 18.2% are overstocked.
+63.5% of SKU-store combinations are Overstocked (3,779 records) — a significant excess-inventory signal worth investigating (tied-up capital, storage costs, risk of markdowns). 18.2% are Understocked (1,081 records) — these need restocking attention. 18.3% are within the OK range.
 
 ### 6. Shipment Operations & Customer Satisfaction
 ![Shipment Operations & Customer Satisfaction](screenshots/shipment_ops_n_cust_sat_analysis.png)
