@@ -47,7 +47,7 @@ Interactive breakdown of the $73.8M revenue base: East leads all regions ($23.7M
 63.5% of SKU–store combinations are currently below reorder threshold (1,081 understocked records) — a significant restocking signal for operations. 18.2% are overstocked.
 
 ### 6. Shipment Operations & Customer Satisfaction
-![Shipment Operations](screenshots/shipment_operations.png) & ![Customer Satisfaction](screenshots/customer_satisfaction.png)
+![Shipment Operations & Customer Satisfaction](screenshots/shipment_ops_n_cust_sat_analysis.png)
 88.2% of shipments delivered on time (within 5 days of ship date), averaging 3.27 days overall. Carrier performance is fairly consistent, no single carrier standing out as a bottleneck.
 
 Satisfaction is consistently high and stable across all provinces (3.8–3.9 out of 5). Customer Support scores marginally lower than Product Quality, Delivery Speed, Price Value, and Website Experience.
