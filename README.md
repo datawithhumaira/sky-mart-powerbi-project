@@ -84,14 +84,14 @@ Actual profit exceeded budget targets by ~398% across every month, region, and c
 ## 📁 Repo Structure
 
 ```
-skymart-powerbi-dashboard/
-├── SkyMart_Dashboard.pbix
-├── README.md
-├── screenshots/
-├── DAX_measures.md
-├── data_quality_notes.md
-├── SkyMart_Theme.Json
----
+   skymart-powerbi-dashboard/
+   ├── SkyMart_Dashboard.pbix
+   ├── README.md
+   ├── screenshots/
+   ├── DAX_measures.md
+   ├── data_quality_notes.md
+   ├── SkyMart_Theme.Json
+```
 
 ## 🚀 How to Use
 
