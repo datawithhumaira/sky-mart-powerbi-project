@@ -95,7 +95,7 @@ skymart-powerbi-dashboard/
 
 ## 🚀 How to Use
 
-Download `SkyMart_Power_BI_Project.pbix`.
+📥 **[Download the Power BI file (SkyMart_Power_BI_Project.pbix)](SkyMart_Power_BI_Project.pbix)**
 
 
 
